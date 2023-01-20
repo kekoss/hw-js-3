@@ -19,7 +19,7 @@ for(let i = 0; i <= userNumber; i++) {
         console.log(i);
         sum = sum + i;
     } else if (userNumber < 5) {
-        alert("Sorry, no numbers")
+        console.log("Sorry, no numbers")
         break
     }
 }
